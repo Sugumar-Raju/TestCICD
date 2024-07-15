@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T17:40:06 IST" name="Command line suite" finished-at="2024-07-02T17:41:44 IST" duration-ms="98058">
+    <groups>
+      <group name="Order Placement">
+        <method signature="E2ETest.orderplacement(java.util.HashMap)[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" name="orderplacement" class="com.FrameLearn.test.E2ETest"/>
+      </group> <!-- Order Placement -->
+      <group name="Error Handling">
+        <method signature="ErrorValidationTest.incorrectLogin()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" name="incorrectLogin" class="com.FrameLearn.test.ErrorValidationTest"/>
+        <method signature="ErrorValidationTest.incorrectProduct()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" name="incorrectProduct" class="com.FrameLearn.test.ErrorValidationTest"/>
+      </group> <!-- Error Handling -->
+    </groups>
+    <test started-at="2024-07-02T17:40:06 IST" name="Command line test" finished-at="2024-07-02T17:41:44 IST" duration-ms="98058">
+      <class name="com.FrameLearn.test.E2ETest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:40:07 IST" name="launchApplication" finished-at="2024-07-02T17:40:17 IST" duration-ms="10502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderplacement(java.util.HashMap)[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:40:17 IST" name="orderplacement" data-provider="getData" finished-at="2024-07-02T17:40:42 IST" duration-ms="24861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=Test@123, product=ZARA COAT 3, email=sugu2720@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderplacement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:40:42 IST" name="tearDown" finished-at="2024-07-02T17:40:42 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:40:42 IST" name="launchApplication" finished-at="2024-07-02T17:40:52 IST" duration-ms="9470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderplacement(java.util.HashMap)[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:40:52 IST" name="orderplacement" data-provider="getData" finished-at="2024-07-02T17:41:00 IST" duration-ms="8381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=Test@123, product=ADIDAS ORIGINAL, email=Test_123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderplacement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:41:00 IST" name="tearDown" finished-at="2024-07-02T17:41:01 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:41:01 IST" name="launchApplication" finished-at="2024-07-02T17:41:10 IST" duration-ms="9409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyOrderHistory()[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:41:10 IST" name="VerifyOrderHistory" finished-at="2024-07-02T17:41:11 IST" depends-on-methods="com.FrameLearn.test.E2ETest.orderplacement" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameLearn.test.E2ETest@3e3047e6]" started-at="2024-07-02T17:41:11 IST" name="tearDown" finished-at="2024-07-02T17:41:12 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.FrameLearn.test.E2ETest -->
+      <class name="com.FrameLearn.test.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:12 IST" name="launchApplication" finished-at="2024-07-02T17:41:21 IST" duration-ms="9827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="incorrectLogin()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:21 IST" name="incorrectLogin" finished-at="2024-07-02T17:41:22 IST" duration-ms="890" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect ema or password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect ema or password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.FrameLearn.test.ErrorValidationTest.incorrectLogin(ErrorValidationTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:22 IST" name="tearDown" finished-at="2024-07-02T17:41:22 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:22 IST" name="launchApplication" finished-at="2024-07-02T17:41:31 IST" duration-ms="8231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectLogin()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:31 IST" name="incorrectLogin" finished-at="2024-07-02T17:41:32 IST" duration-ms="928" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect ema or password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect ema or password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.FrameLearn.test.ErrorValidationTest.incorrectLogin(ErrorValidationTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:32 IST" name="tearDown" finished-at="2024-07-02T17:41:32 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:32 IST" name="launchApplication" finished-at="2024-07-02T17:41:41 IST" duration-ms="8592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectProduct()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:41 IST" name="incorrectProduct" finished-at="2024-07-02T17:41:44 IST" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameLearn.test.ErrorValidationTest@37e547da]" started-at="2024-07-02T17:41:44 IST" name="tearDown" finished-at="2024-07-02T17:41:44 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.FrameLearn.test.ErrorValidationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

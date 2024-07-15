@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 99.276 sec <<< FAILURE!
+incorrectLogin(com.FrameLearn.test.ErrorValidationTest)  Time elapsed: 0.936 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect ema or password.] but found [Incorrect email or password.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.FrameLearn.test.ErrorValidationTest.incorrectLogin(ErrorValidationTest.java:15)
+
